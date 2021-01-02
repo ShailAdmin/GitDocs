@@ -1,0 +1,6 @@
+Script started on 2020-12-31 17:54:36+00:00
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# clear
+[3J[H[2J]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# ls
+anaconda-ks.cfg  [0m[38;5;33mGIT-1[0m  Git1.txt  Git2.txt  Git3.txt  Git4.txt  original-ks.cfg
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cp Git* GIT-1/
+cp: overwrite 'GIT-1/Git1.txt'? y

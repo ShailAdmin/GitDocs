@@ -1,0 +1,445 @@
+Script started on 2020-12-31 17:03:14+00:00
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# git login
+git: 'login' is not a git command. See 'git --help'.
+
+The most similar command is
+	column
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# git connect
+git: 'connect' is not a git command. See 'git --help'.
+
+The most similar command is
+	contacts
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# clear
+[3J[H[2J]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# git remote add origin https://github.com/ShailAdmin/CommonDriver
+fatal: not a git repository (or any of the parent directories): .git
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# pwd
+/root
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cd Git
+bash: cd: Git: No such file or directory
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cd Git[K[K[K[K[K[Kls
+anaconda-ks.cfg  [0m[38;5;33mGIT-1[0m  Git1.txt  Git2.txt  original-ks.cfg
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cd GIT-1
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# clear
+[3J[H[2J]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# clear[3Plscd GIT-1ls[Kcd Git[3Ppwdgit remote add origin https://github.com/ShailAdmin/CommonDriver
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git pull https://github.com/ShailAdmin/CommonDriver
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+Username for 'https://github.com': git congi  fig
+Password for 'https://git config@github.com': 
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git pull https://github.com/ShailAdmin/CommonDriver
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+Username for 'https://github.com': ShailAdmin
+Password for 'https://ShailAdmin@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/ShailAdmin/CommonDriver/'
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git pull https://github.com/ShailAdmin/CommonDriver
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+Username for 'https://github.com': ShailAdmin
+Password for 'https://ShailAdmin@github.com': 
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  20% (1/5)Unpacking objects:  40% (2/5)Unpacking objects:  60% (3/5)Unpacking objects:  80% (4/5)Unpacking objects: 100% (5/5)Unpacking objects: 100% (5/5), 12.73 KiB | 6.37 MiB/s, done.
+From https://github.com/ShailAdmin/CommonDriver
+ * branch            HEAD       -> FETCH_HEAD
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cp [K[K[Kcd ..
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# ls
+anaconda-ks.cfg  [0m[38;5;33mGIT-1[0m  Git1.txt  Git2.txt  original-ks.cfg
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cp Git1.txt /[KGIT-1/
+]0;root@ip-172-31-40-103:~[root@ip-172-31-40-103 ~]# cd GIT-1/
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+Git1.txt  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git push Git1.txt 
+fatal: invalid gitfile format: Git1.txt
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# mv Git1.txt  git.spec
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# mv Git1.txt  git.spec[3Pgit push Git1.txt [K[K[K[K[K[K[K[K[Kgit.spec
+fatal: invalid gitfile format: git.spec
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+git.spec  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls -la
+total 800
+drwxr-xr-x. 3 root root     84 Dec 31 17:10 [0m[38;5;33m.[0m
+dr-xr-x---. 4 root root    233 Dec 31 17:03 [38;5;33m..[0m
+drwxr-xr-x. 8 root root    162 Dec 31 17:08 [38;5;33m.git[0m
+-rw-r--r--. 1 root root    350 Dec 31 17:08 .gitignore
+-rw-r--r--. 1 root root 772426 Dec 31 17:09 git.spec
+-rw-r--r--. 1 root root  35149 Dec 31 17:08 LICENSE
+-rw-r--r--. 1 root root     30 Dec 31 17:08 README.md
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git commit git,spec
+error: pathspec 'git,spec' did not match any file(s) known to git
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit.spec[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add git.spec
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add git.spec[6Pstatus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   git.spec[m
+
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git commit h[Kgit.spec
+hint: Waiting for your editor to close the file... error: cannot run vim: No such file or directory
+error: unable to start editor 'vim'
+Please supply the message using either -m or -F option.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git commit git.spec-git.specmgit.spec git.spec
+[master 6f64e1c] git.spec
+ 1 file changed, 587 insertions(+)
+ create mode 100644 git.spec
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git commit -m git.spec[C[C[1P git.spec[1P git.spec[1Pgit.spec[1P git.spec[1P git.spec[1P git.spec[1P git.spec[1P git.spec[1P git.specp git.specu git.specs git.spech git.spec
+fatal: invalid gitfile format: git.spec
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ll
+total 796
+-rw-r--r--. 1 root root 772426 Dec 31 17:09 git.spec
+-rw-r--r--. 1 root root  35149 Dec 31 17:08 LICENSE
+-rw-r--r--. 1 root root     30 Dec 31 17:08 README.md
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# chmod 777 *
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# chmod 777 *ll[Kgit push git.spec
+fatal: invalid gitfile format: git.spec
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add git.spec
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   git.spec[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LICENSE[m
+	[31mmodified:   README.md[m
+
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add Li[KICENSE 
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add LICENSE [K[K[K[K[K[K[K[KREADME.md 
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# lsgit add README.md [2PLICENSE[C[6Pstatus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   LICENSE[m
+	[32mmodified:   README.md[m
+	[32mmodified:   git.spec[m
+
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# pwd
+/root/GIT-1
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git clone https://github.com/ShailAdmin/CommonDriver
+Cloning into 'CommonDriver'...
+Username for 'https://github.com': ShailAdmin
+Password for 'https://ShailAdmin@github.com': 
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+Unpacking objects:  20% (1/5)Unpacking objects:  40% (2/5)Unpacking objects:  60% (3/5)remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  80% (4/5)Unpacking objects: 100% (5/5)Unpacking objects: 100% (5/5), 12.73 KiB | 1.82 MiB/s, done.
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;33mCommonDriver[0m  [38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cd [K[K[Kcp git.spec CommonDriver/
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   LICENSE[m
+	[32mmodified:   README.md[m
+	[32mmodified:   git.spec[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCommonDriver/[m
+
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git add CommonDriver/
+warning: adding embedded git repository: CommonDriver
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> CommonDriver[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached CommonDriver[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;33mCommonDriver[0m  [38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cd ..[K[K[K[K[Kgit pushh com[K[K[KCommonDriver/
+git: 'pushh' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# git pushh CommonDriver/[1P CommonDriver/
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 28.70 KiB | 2.61 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+To CommonDriver/
+ * [new branch]      master -> master
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;33mCommonDriver[0m  [38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cd Git[K[K[KCommonDriver/
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# ls
+[0m[38;5;40mgit.spec[0m  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mgit.spec[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git add git.spec 
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git add git.spec [7Pstatus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   git.spec[m
+
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# cd ..
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cd ..git statusadd git.spec [7Pstatusls[Kcd CommonDriver/ls[Kgit push CommonDriver/
+Everything up-to-date
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# ls
+[0m[38;5;33mCommonDriver[0m  [38;5;40mgit.spec[0m  [38;5;40mLICENSE[0m  [38;5;40mREADME.md[0m
+]0;root@ip-172-31-40-103:~/GIT-1[root@ip-172-31-40-103 GIT-1]# cd CommonDriver/
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# ls
+[0m[38;5;40mgit.spec[0m  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# lscd CommonDriver/ls[Kgit push CommonDriver/
+fatal: 'CommonDriver/' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git push CommonDriver/ls[Kcd CommonDriver/ls[Kgit push CommonDriver/cd ..[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   git.spec[m
+
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git mo[K[Kcommit git.spec 
+hint: Waiting for your editor to close the file... error: cannot run vim: No such file or directory
+error: unable to start editor 'vim'
+Please supply the message using either -m or -F option.
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git commit git.spec [1@-[1@m[1@ 
+[main 3067038] git.spec
+ Committer: root <root@ip-172-31-40-103.ap-south-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 587 insertions(+)
+ create mode 100755 git.spec
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]#  git config --global user.name "ShailAdmin"
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]#  git config --global user.name "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"[1P "ShailAdmin"E "ShailAdmin"[12Pgit commit -m git.spec [3P[C[C[C[C[C[C[C[C[C[3@-m [C[C[C[C[C[C[C[C[C git config --global E "ShailAdmin"[1P "ShailAdmin"u "ShailAdmin"s "ShailAdmin"e "ShailAdmin"r "ShailAdmin". "ShailAdmin"e "ShailAdmin"m "ShailAdmin"a "ShailAdmin"i "ShailAdmin"l "ShailAdmin"[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"s"h"a"i"l"e"s"h"."g"u"p"t"a"@"o"u"t"l"o"o"k"."i"n"
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]#  git config --global user.email "shailesh.gupta@outlook.in"[16Pname "ShailAdmin"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pgit commit -m git.spec 
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# ls
+[0m[38;5;40mgit.spec[0m  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git push git.spec 
+fatal: invalid gitfile format: git.spec
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git init
+Reinitialized existing Git repository in /root/GIT-1/CommonDriver/.git/
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# ls
+[0m[38;5;40mgit.spec[0m  LICENSE  README.md
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git add .
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git commit -,[Km "First Commit"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# clear
+[3J[H[2J]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git remote add repository origin https://github.com/ShailAdmin/CommonDriver
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# git remote add repository origin https://github.com/ShailAdmin/CommonDriver[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ 
+fatal: remote origin already exists.
+]0;root@ip-172-31-40-103:~/GIT-1/CommonDriver[root@ip-172-31-40-103 CommonDriver]# exit
+exit
+
+Script done on 2020-12-31 17:26:33+00:00
